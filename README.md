@@ -1,3 +1,6 @@
 - Toute la communication est faite en ssh
 - Étape 1 — Installer Picamera2
 - sudo apt install python3-picamera2
+- Étape 2 — Vérifier dans notre environnement Python
+- ~/anpr-env/bin/python -c 'from picamera2 import Picamera2; print('PICAMERA2 FONCTIONNE !')'
+- 
