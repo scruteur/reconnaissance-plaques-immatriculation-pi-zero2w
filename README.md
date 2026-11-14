@@ -22,3 +22,26 @@
 - Étape 5 — Lancer notre programme
 - ~/anpr-env/bin/python anpr_portail.py
 - 
+- # envoyer un programme au pi 
+-  scp mon_programme.py utilisateur@ADRESSE_IP_DU_PI:/home/utilisateur/
+
+-  # 1. Installer pip et venv
+- sudo apt install -y python3-pip python3-venv
+
+- # 2. Créer un environnement virtuel pour ton projet
+- python3 -m venv ~/env_anpr
+
+- # 3. L'activer
+- source ~/env_anpr/bin/activate
+
+- # 4. Ton prompt change → tu es dans l'environnement :
+- # (env_anpr) pi@pi:~ $
+
+- pip install pytesseract
+
+- pour supprimer l'ancienne clée
+- # avec adresse du pi
+
+- ssh-keygen -f '/home/jean/.ssh/known_hosts' -R '192.168.1.45'
+
+- 
