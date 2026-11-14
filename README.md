@@ -7,8 +7,8 @@
 - ~/anpr-env/bin/python -c 'from picamera2 import Picamera2; print('PICAMERA2 FONCTIONNE !')'
 - 
 - tape 1 — Installer les outils nécessaires
-sudo apt update
-sudo apt install python3-venv
+- sudo apt update
+- sudo apt install python3-venv
 
 - Étape 2 — Créer un environnement Python
 - python3 -m venv --system-site-packages ~/anpr-env
