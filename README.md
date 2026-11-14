@@ -1,1 +1,3 @@
 Toute la communication est faite en ssh
+Étape 1 — Installer Picamera2
+sudo apt install python3-picamera2
